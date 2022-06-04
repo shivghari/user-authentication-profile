@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>EJS Form</title>
+    </head>
+    <body>
+        <h1>Enter Data For EJS Testing</h1>
+        
+        <form action="ejs/handleData" method="post">
+            <input type="text" name="name" placeholder="Enter Name : "/>
+            <input type="password" name="pass" placeholder="Enter password : "/>
+            <input type="submit" value="Submit"/>
+        </form>
+        <h1>UserName : <%=name%></h1>
+        <h1>Password : <%=pass%></h1>
+    </body>
+</html>

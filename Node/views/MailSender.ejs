@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Node Mailer</title>
+    </head>
+    <body>
+        <h1>Enter Data For mail Sending Process</h1>
+        
+        <form action="/nodemail/send" method="post">
+            <input type="email" name="toEmail" placeholder="To :  "/>
+            <input type="text" name="subject" placeholder="Enter Email Subject :  "/>
+            <input type="text" name="emailText" placeholder="enter data for text : ">
+            <input type="file" name="file" placeholder="Select file to send."/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
